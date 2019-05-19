@@ -1,0 +1,19 @@
+Как создать репозиторий:
+1. Как копию удаленного
+$ git clone https://server/user/repo.git
+2. Локально с нуля:
+$ git init
+Initialized empty Git repository in /tmp/git/.git/
+
+Первоначальная настройка git
+$ git config --global user.name "Denis Scherbatyk"
+$ git config --global user.email denvol100@gmail.com
+
+Статус
+$ git status
+Выводит текущее состояние репозитория
+
+Добавление
+$ git add
+сообщаем git-у, что планируем зафиксировать определенные (или все)
+файлы
